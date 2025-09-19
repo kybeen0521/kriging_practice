@@ -16,7 +16,8 @@ ordinarykriging.py → Implementation of the Ordinary Kriging method
 
 test.py → End-to-end execution script (data loading, fitting, prediction, visualization)
 
-✨ Features
+
+## ✨ Features
 
 Random subsampling of spatial data
 
@@ -42,7 +43,8 @@ CSV export of grid data
 
 Visualization of predicted surfaces and error maps
 
-🔄 Workflow
+
+## 🔄 Workflow
 
 Input data (datas.csv, with columns x, y, v)
 ↓ Step 1: Grid Construction → base.py
@@ -51,8 +53,10 @@ Input data (datas.csv, with columns x, y, v)
 ↓ Step 4: Execution & Visualization → test.py
 ↓ Output: Predicted values, error maps, logs
 
-📝 Step Descriptions
-1️⃣ base.py – Grid Construction
+
+## 📝 Step Descriptions
+
+### 1️⃣ base.py – Grid Construction
 
 Reads (x, y, v) input data
 
@@ -60,7 +64,7 @@ Computes pairwise distances, angles, and semivariances
 
 Prepares structured grid for variogram and kriging
 
-2️⃣ models.py – Variogram Models
+### 2️⃣ models.py – Variogram Models
 
 Defines theoretical models:
 
@@ -76,7 +80,7 @@ Nugget
 
 Provides functions for curve fitting
 
-3️⃣ ordinarykriging.py – Kriging
+### 3️⃣ ordinarykriging.py – Kriging
 
 Constructs kriging system matrix
 
@@ -84,7 +88,7 @@ Solves with pseudo-inverse to handle singularities
 
 Outputs predictions and estimation variances
 
-4️⃣ test.py – Run & Visualize
+### 4️⃣ test.py – Run & Visualize
 
 Loads data from datas.csv
 
@@ -94,12 +98,24 @@ Runs kriging interpolation
 
 Plots predicted surface and error map
 
-📂 Project Structure
-.
+
+---
+## 📂 Project Structure
+```
 ├── base.py              # Grid setup & semivariogram data preparation
 ├── models.py            # Semivariogram models
 ├── ordinarykriging.py   # Ordinary Kriging implementation
 ├── test.py              # End-to-end pipeline script
 ├── datas.csv            # Example input data
 └── README.md            # Documentation
+```
+---
+
+
+## 👤 Author
+**Yongbeen Kim (김용빈)**  
+Researcher, Intelligent Mechatronics Research Center, KETI
+
+
+📅 Document last updated 2025.09.19
 
