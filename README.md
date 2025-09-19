@@ -1,7 +1,8 @@
 # Kriging-based Geostatistical Analysis practice
 
 
-📌 Overview
+## 📌 Overview
+---
 
 This repository provides a Python pipeline for geostatistical analysis using Ordinary Kriging.
 It covers everything from grid setup, semivariogram modeling, ordinary kriging interpolation, to visualization.
@@ -16,6 +17,7 @@ ordinarykriging.py → Implementation of the Ordinary Kriging method
 
 test.py → End-to-end execution script (data loading, fitting, prediction, visualization)
 
+---
 
 ## ✨ Features
 
@@ -43,6 +45,7 @@ CSV export of grid data
 
 Visualization of predicted surfaces and error maps
 
+---
 
 ## 🔄 Workflow
 
@@ -53,6 +56,7 @@ Input data (datas.csv, with columns x, y, v)
 ↓ Step 4: Execution & Visualization → test.py
 ↓ Output: Predicted values, error maps, logs
 
+---
 
 ## 📝 Step Descriptions
 
