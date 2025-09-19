@@ -1,4 +1,6 @@
-Kriging-based Geostatistical Analysis
+# Kriging-based Geostatistical Analysis practice
+
+
 📌 Overview
 
 This repository provides a Python pipeline for geostatistical analysis using Ordinary Kriging.
