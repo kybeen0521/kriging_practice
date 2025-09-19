@@ -21,29 +21,29 @@ test.py → End-to-end execution script (data loading, fitting, prediction, visu
 
 ## ✨ Features
 
-Random subsampling of spatial data
+- Random subsampling of spatial data
 
-Computation of pairwise distances, angles, and semivariances
+- Computation of pairwise distances, angles, and semivariances
 
-Multiple semivariogram models:
+- Multiple semivariogram models:
 
-Spherical
+- Spherical
 
-Exponential
+- Exponential
 
-Gaussian
+- Gaussian
 
-Pentaspherical
+- Pentaspherical
 
-Nugget
+- Nugget
 
-Least-squares fitting of variogram models
+- Least-squares fitting of variogram models
 
-Ordinary Kriging interpolation with pseudo-inverse solver (robust to singularities)
+- Ordinary Kriging interpolation with pseudo-inverse solver (robust to singularities)
 
-CSV export of grid data
+- CSV export of grid data
 
-Visualization of predicted surfaces and error maps
+- Visualization of predicted surfaces and error maps
 
 ---
 
@@ -70,37 +70,37 @@ Prepares structured grid for variogram and kriging
 
 ### 2️⃣ models.py – Variogram Models
 
-Defines theoretical models:
+- Defines theoretical models:
 
-Spherical
+- Spherical
 
-Exponential
+- Exponential
 
-Gaussian
+- Gaussian
 
-Pentaspherical
+- Pentaspherical
 
-Nugget
+- Nugget
 
-Provides functions for curve fitting
+- Provides functions for curve fitting
 
 ### 3️⃣ ordinarykriging.py – Kriging
 
-Constructs kriging system matrix
+- Constructs kriging system matrix
 
-Solves with pseudo-inverse to handle singularities
+- Solves with pseudo-inverse to handle singularities
 
-Outputs predictions and estimation variances
+- Outputs predictions and estimation variances
 
 ### 4️⃣ test.py – Run & Visualize
 
-Loads data from datas.csv
+- Loads data from datas.csv
 
-Fits semivariogram model
+- Fits semivariogram model
 
-Runs kriging interpolation
+- Runs kriging interpolation
 
-Plots predicted surface and error map
+- Plots predicted surface and error map
 
 
 ---
