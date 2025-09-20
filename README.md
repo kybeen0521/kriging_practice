@@ -119,5 +119,5 @@ Prepares structured grid for variogram and kriging
 Researcher, Intelligent Mechatronics Research Center, KETI
 
 
-📅 Document last updated 2025.09.19
+📅 Document last updated 2025.09.20
 
