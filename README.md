@@ -2,8 +2,6 @@
 
 
 ## 📌 Overview
----
-
 This repository provides a Python pipeline for geostatistical analysis using Ordinary Kriging.
 It covers everything from grid setup, semivariogram modeling, ordinary kriging interpolation, to visualization.
 
