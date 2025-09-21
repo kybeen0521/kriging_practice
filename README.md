@@ -7,7 +7,7 @@ It covers everything from grid setup, semivariogram modeling, ordinary kriging i
 
 The workflow consists of four main modules:
 
-base.py → Grid setup and semivariogram data preparation
+- base.py → Grid setup and semivariogram data preparation
 
 models.py → Semivariogram model definitions (Spherical, Exponential, Gaussian, etc.)
 
