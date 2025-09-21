@@ -9,7 +9,7 @@ The workflow consists of four main modules:
 
 - base.py → Grid setup and semivariogram data preparation
 
-models.py → Semivariogram model definitions (Spherical, Exponential, Gaussian, etc.)
+- models.py → Semivariogram model definitions (Spherical, Exponential, Gaussian, etc.)
 
 ordinarykriging.py → Implementation of the Ordinary Kriging method
 
