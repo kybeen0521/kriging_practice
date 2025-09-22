@@ -64,7 +64,7 @@ Input data (datas.csv, with columns x, y, v)
 
 - Computes pairwise distances, angles, and semivariances
 
-Prepares structured grid for variogram and kriging
+- Prepares structured grid for variogram and kriging
 
 ### 2️⃣ models.py – Variogram Models
 
