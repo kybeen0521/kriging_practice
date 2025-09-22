@@ -60,7 +60,7 @@ Input data (datas.csv, with columns x, y, v)
 
 ### 1️⃣ base.py – Grid Construction
 
-Reads (x, y, v) input data
+- Reads (x, y, v) input data
 
 Computes pairwise distances, angles, and semivariances
 
