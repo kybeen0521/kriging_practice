@@ -62,7 +62,7 @@ Input data (datas.csv, with columns x, y, v)
 
 - Reads (x, y, v) input data
 
-Computes pairwise distances, angles, and semivariances
+- Computes pairwise distances, angles, and semivariances
 
 Prepares structured grid for variogram and kriging
 
