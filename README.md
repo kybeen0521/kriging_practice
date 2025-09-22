@@ -48,11 +48,22 @@ The workflow consists of four main modules:
 ## 🔄 Workflow
 
 Input data (datas.csv, with columns x, y, v)
+
+
 ↓ Step 1: Grid Construction → base.py
+
+
 ↓ Step 2: Variogram Modeling → models.py
+
+
 ↓ Step 3: Ordinary Kriging Interpolation → ordinarykriging.py
+
+
 ↓ Step 4: Execution & Visualization → test.py
+
+
 ↓ Output: Predicted values, error maps, logs
+
 
 ---
 
