@@ -113,6 +113,16 @@ Input data (datas.csv, with columns x, y, v)
 
 - Plots predicted surface and error map
 
+### 4️-1 test_final.py – Run & Visualize with data dots
+
+- Loads data from datas.csv
+
+- Fits semivariogram model
+
+- Runs kriging interpolation
+
+- Plots predicted surface and error map
+
 
 ---
 ## 📂 Project Structure
