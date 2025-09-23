@@ -131,7 +131,7 @@ Input data (datas.csv, with columns x, y, v)
 ├── models.py            # Semivariogram models
 ├── ordinarykriging.py   # Ordinary Kriging implementation
 ├── test.py              # End-to-end pipeline script without data dots
-├── test.py              # End-to-end pipeline script with data dots
+├── test_final.py              # End-to-end pipeline script with data dots
 ├── datas.csv            # Example input data
 └── README.md            # Documentation
 ```
