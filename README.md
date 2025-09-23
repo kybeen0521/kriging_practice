@@ -13,7 +13,8 @@ The workflow consists of four main modules:
 
 - ordinarykriging.py → Implementation of the Ordinary Kriging method
 
-- test.py → End-to-end execution script (data loading, fitting, prediction, visualization)
+- test.py → End-to-end execution script without data dots (data loading, fitting, prediction, visualization)
+- 
 
 ---
 
