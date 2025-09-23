@@ -103,7 +103,7 @@ Input data (datas.csv, with columns x, y, v)
 
 - Outputs predictions and estimation variances
 
-### 4️⃣ test.py – Run & Visualize
+### 4️⃣ test.py – Run & Visualize without data dots
 
 - Loads data from datas.csv
 
