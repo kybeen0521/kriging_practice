@@ -120,7 +120,8 @@ Input data (datas.csv, with columns x, y, v)
 ├── base.py              # Grid setup & semivariogram data preparation
 ├── models.py            # Semivariogram models
 ├── ordinarykriging.py   # Ordinary Kriging implementation
-├── test.py              # End-to-end pipeline script
+├── test.py              # End-to-end pipeline script without data dots
+├── test.py              # End-to-end pipeline script with data dots
 ├── datas.csv            # Example input data
 └── README.md            # Documentation
 ```
