@@ -6,6 +6,9 @@ This repository provides a Python pipeline for geostatistical analysis using Ord
 It covers everything from grid setup, semivariogram modeling, ordinary kriging interpolation, to visualization.
 This original kriging repository author wrote it 15 years ago so there are different points on these python codes.
 
+
+📑 If you wanna check more details of original version, please refer to 
+
 The workflow consists of four main modules:
 
 - base.py → Grid setup and semivariogram data preparation
