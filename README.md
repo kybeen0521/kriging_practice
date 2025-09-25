@@ -69,7 +69,7 @@ Input data (datas.csv, with columns x, y, v)
 ↓ Step 4: Execution & Visualization without data dots → test.py
 
 
-↓ Step 4-1: Execution & Visualization → test_final.py
+↓ Step 4-1: Execution & Visualization with data dots → test_final.py
 
 
 ↓ Output: Predicted values, error maps, logs
