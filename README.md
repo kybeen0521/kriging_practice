@@ -48,7 +48,7 @@ The workflow consists of four main modules:
 
 - CSV export of grid data
 
-- Visualization of predicted surfaces and error maps with data dots version and without data version
+- Visualization of predicted surfaces and error maps with data dots version and without data dots version
 
 ---
 
